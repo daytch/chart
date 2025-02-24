@@ -1,0 +1,260 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0" version="26.0.16" pages="2">
+  <diagram name="Page-1" id="R0_UK5xTzm5EfkIw3IiV">
+    <mxGraphModel dx="1426" dy="781" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="Start" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="363" y="8" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="Select a book" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="259" y="108" width="259" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="Add product to cart" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="288" y="235" width="201" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="Apply applicable discounts" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="263" y="339" width="250" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="Proceed to checkout" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="285" y="443" width="207" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="Confirm order" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="58" y="570" width="160" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="Cancel order" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="313" y="570" width="152" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="Receive order confirmation email" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="8" y="674" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="10" value="Prepare order for shipping" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="14" y="802" width="248" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="11" value="Ship order" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="71" y="906" width="133" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="12" value="Provide tracking information" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="8" y="1010" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="13" value="Order delivered" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="51" y="1138" width="173" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="14" value="End" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="351" y="1242" width="41" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="15" value="Attempt payment again" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="329" y="686" width="229" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="16" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.51;exitY=1;entryX=0.5;entryY=0;" parent="1" source="2" target="3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="17" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="1" source="3" target="4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="18" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="1" source="4" target="5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="19" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="1" source="5" target="6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="20" value="Payment successful" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.99;entryX=0.5;entryY=0;" parent="1" source="6" target="7" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="138" y="534" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="21" value="Payment failed" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="1" source="6" target="8" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="22" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="1" source="7" target="9" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="23" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="1" source="9" target="10" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="24" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="1" source="10" target="11" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="25" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="1" source="11" target="12" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="26" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="1" source="12" target="13" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="27" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=-0.01;entryY=0.4;" parent="1" source="13" target="14" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="138" y="1217" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="28" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.4;entryY=0;" parent="1" source="8" target="15" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="388" y="649" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="29" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.62;exitY=0;entryX=0.75;entryY=1;" parent="1" source="15" target="6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="509" y="649" />
+              <mxPoint x="509" y="534" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="30" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.99;exitY=0.86;entryX=1;entryY=0.4;" parent="1" source="8" target="14" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="593" y="649" />
+              <mxPoint x="593" y="1217" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="BwNjkcvP9To-Ssp9TjUc" name="Payment">
+    <mxGraphModel dx="1426" dy="781" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="N-2hwbs27_AUtKBnJU2R-1" value="Start" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="363" y="8" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="N-2hwbs27_AUtKBnJU2R-2" value="Choose an amount" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="299" y="108" width="181" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="N-2hwbs27_AUtKBnJU2R-3" value="Click &quot;Pay&quot; button" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="297" y="230" width="183" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="N-2hwbs27_AUtKBnJU2R-4" value="Send detail payment to KLPK API &#xa;(Payment module)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="296" y="339" width="184" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="N-2hwbs27_AUtKBnJU2R-5" value="Proceed to transaction&#xa;(E2Pay payment gateway)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="297" y="443" width="183" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="N-2hwbs27_AUtKBnJU2R-7" value="Log payment transaction" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="320" y="870" width="152" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="N-2hwbs27_AUtKBnJU2R-8" value="Add user coin base on payment" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="100" y="645" width="180" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="N-2hwbs27_AUtKBnJU2R-9" value="Send notif to user" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="321" y="990" width="150" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="N-2hwbs27_AUtKBnJU2R-13" value="End" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="375.5" y="1130" width="41" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="N-2hwbs27_AUtKBnJU2R-15" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.51;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="N-2hwbs27_AUtKBnJU2R-1" target="N-2hwbs27_AUtKBnJU2R-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N-2hwbs27_AUtKBnJU2R-16" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="N-2hwbs27_AUtKBnJU2R-2" target="N-2hwbs27_AUtKBnJU2R-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N-2hwbs27_AUtKBnJU2R-17" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="N-2hwbs27_AUtKBnJU2R-3" target="N-2hwbs27_AUtKBnJU2R-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N-2hwbs27_AUtKBnJU2R-18" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="N-2hwbs27_AUtKBnJU2R-4" target="N-2hwbs27_AUtKBnJU2R-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N-2hwbs27_AUtKBnJU2R-19" value="Payment successful" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.99;entryX=0.464;entryY=-0.019;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="N-2hwbs27_AUtKBnJU2R-30">
+          <mxGeometry x="0.7323" y="12" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="170" y="465" />
+            </Array>
+            <mxPoint x="297" y="465.46000000000004" as="sourcePoint" />
+            <mxPoint x="138" y="540" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N-2hwbs27_AUtKBnJU2R-22" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="191" y="595" as="sourcePoint" />
+            <mxPoint x="191" y="645" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N-2hwbs27_AUtKBnJU2R-23" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="N-2hwbs27_AUtKBnJU2R-9" target="N-2hwbs27_AUtKBnJU2R-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="137.5" y="1052" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N-2hwbs27_AUtKBnJU2R-30" value="API success payment KLPK&#xa;(Payment Module)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="100" y="540" width="183" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="N-2hwbs27_AUtKBnJU2R-31" value="API failed payment KLPK&#xa;(Payment Module)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="510" y="540" width="183" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="N-2hwbs27_AUtKBnJU2R-32" value="Payment failed" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.99;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="N-2hwbs27_AUtKBnJU2R-31">
+          <mxGeometry x="0.7773" y="-17" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="620" y="440" />
+            </Array>
+            <mxPoint x="478" y="466.46000000000004" as="sourcePoint" />
+            <mxPoint x="366" y="540" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N-2hwbs27_AUtKBnJU2R-33" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=1;entryY=0.5;exitDx=0;exitDy=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="N-2hwbs27_AUtKBnJU2R-31" target="N-2hwbs27_AUtKBnJU2R-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="603" y="663" />
+              <mxPoint x="570" y="880" />
+            </Array>
+            <mxPoint x="475" y="632" as="sourcePoint" />
+            <mxPoint x="402" y="1273" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N-2hwbs27_AUtKBnJU2R-36" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0;entryY=0.5;exitDx=0;exitDy=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="N-2hwbs27_AUtKBnJU2R-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="191" y="769" />
+              <mxPoint x="230" y="880" />
+            </Array>
+            <mxPoint x="190" y="700" as="sourcePoint" />
+            <mxPoint x="60" y="1003" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N-2hwbs27_AUtKBnJU2R-38" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="N-2hwbs27_AUtKBnJU2R-7" target="N-2hwbs27_AUtKBnJU2R-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="395.5" y="930" as="sourcePoint" />
+            <mxPoint x="395.5" y="1016" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
